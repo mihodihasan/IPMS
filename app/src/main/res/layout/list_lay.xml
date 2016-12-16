@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+        <TextView
+            android:id="@+id/patID"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"/>
+        <TextView
+            android:id="@+id/patName"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_weight="1.4"
+            />
+        <TextView
+            android:id="@+id/patCon"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.8"
+            android:text="Contact"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

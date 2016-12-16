@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mri"
+            android:title="MRI"
+            android:icon="@drawable/lab"/>
+        <item
+            android:id="@+id/xray"
+            android:title="X-RAY"
+            android:icon="@drawable/lab"/>
+        <item
+            android:id="@+id/lipid"
+            android:title="Lipid"
+            android:icon="@drawable/lab"/>
+        <item
+            android:id="@+id/ultrasonography"
+            android:title="Ultrasonography"
+            android:icon="@drawable/lab"/>
+        <item
+            android:id="@+id/memmogram"
+            android:title="Memmogram"
+            android:icon="@drawable/lab"/>
+    </group>
+</menu>

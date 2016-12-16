@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:databasedemo="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.droiddigger.dietmaster">
+    <item
+        android:id="@+id/login"
+        android:orderInCategory="100"
+        android:title="Login"
+        databasedemo:showAsAction="always" />
+</menu>
